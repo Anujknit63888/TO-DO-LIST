@@ -1,0 +1,85 @@
+html {
+    font-size: 15px;
+  }
+  
+  body {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        from(#e83030),
+        to(#49f2e7)
+      )
+      fixed;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .card {
+    background-color: rgb(255, 255, 255);
+  }
+  .card-body,
+  ul {
+    background-color: rgb(254, 255, 243);
+    min-height: 0px;
+  }
+  .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .list-item {
+    color: rgb(28, 154, 239);
+  }
+  .list-group-item {
+    background-color: inherit;
+    border: none;
+  }
+  .under-list-item {
+    font-size: 0.9rem;
+  }
+  .under-list-item .list-group-item {
+    color: rgb(46, 152, 164);
+  }
+  
+  .under-list-input input {
+    height: calc(1em + 0.75rem);
+  }
+  
+  .line-throught {
+    text-decoration: line-through;
+  }
+  #govind:hover{
+   color: #e83030;
+  }
+  .float-left:hover{
+    color: rgb(56, 248, 65);
+   }
+  
+  
+
+  
+  @media (max-width: 992px) {
+    .container,
+    .row {
+      padding: 0;
+      margin: 0 auto;
+    }
+    .btn-outline-danger {
+      font-size: 0.9rem;
+    }
+   
+  }
+  @media (max-width: 400px) {
+    #dellAll {
+      font-size: 0.7rem;
+    }
+  }
